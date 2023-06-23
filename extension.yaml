@@ -1,0 +1,7 @@
+title: Common Utilities Extension
+version: 0.0.1
+description: Extension that includes common utilities, including QR code generation
+author: Georg Zoeller
+origin: https://github.com/georgzoeller/omni-extension-common-utils.git
+client:
+  addToWorkbench: true
