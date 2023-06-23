@@ -1158,7 +1158,7 @@ var GenerateQRCodeComponent = {
             "type": "number",
             "default": 8,
             "minimum": 1,
-            "maximum": 20,
+            "maximum": 40,
             "description": `Number Pixels to encode each block`
           },
           "border": {
