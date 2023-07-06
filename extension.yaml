@@ -4,4 +4,4 @@ description: Extension that includes common utilities, including QR code generat
 author: Georg Zoeller
 origin: https://github.com/georgzoeller/omni-extension-common-utils.git
 client:
-  addToWorkbench: true
+  addToWorkbench: false
