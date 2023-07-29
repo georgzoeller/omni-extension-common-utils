@@ -181,7 +181,7 @@ import readQR from '@paulmillr/qr/decode';
 
         // Todo: only if socket is connected
         const gifBytes = writeQR(payload.text, 'gif', opts);
-        const gif = await ctx.app.cdn.putTemp(Buffer.from(gifBytes), {mimeType: 'image/gif'})
+        const gif = await ctx.app.cdn.putTemp(Buffer.from(gifBytes), {mimeType: 'image/gif', userId: ctx.userId})
 
         const svg = writeQR(payload.text, 'svg', opts);
 

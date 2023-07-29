@@ -1278,7 +1278,7 @@ var GenerateQRCodeComponent = {
         version: payload.version || void 0
       };
       const gifBytes = createQR(payload.text, "gif", opts);
-      const gif = await ctx.app.cdn.putTemp(Buffer.from(gifBytes), { mimeType: "image/gif" });
+      const gif = await ctx.app.cdn.putTemp(Buffer.from(gifBytes), { mimeType: "image/gif", userId: ctx.userId });
       const svg = createQR(payload.text, "svg", opts);
       return { gif, svg };
     }
