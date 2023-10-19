@@ -1,3 +1,8 @@
+/**
+ * Copyright (c) 2023 MERCENARIES.AI PTE. LTD.
+ * All rights reserved.
+ */
+
 // node_modules/@paulmillr/qr/index.js
 function assertNumber(n) {
   if (!Number.isSafeInteger(n))

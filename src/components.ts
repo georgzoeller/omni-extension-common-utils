@@ -1,3 +1,8 @@
+/**
+ * Copyright (c) 2023 MERCENARIES.AI PTE. LTD.
+ * All rights reserved.
+ */
+
 import writeQR from '@paulmillr/qr';
 import readQR from '@paulmillr/qr/decode';
 
